@@ -7,5 +7,5 @@
            fetch="ssh://git@github.com" />
 <manifest>
   <remove-project name="CyanogenMod/android_bootable_recovery" />
-  <project path="bootable/recovery" name="ProjectOpenCannibal/poc_bootable_recovery" remote="gerrit" revision="cm-12.1"/>
+  <project path="bootable/recovery" name="ProjectOpenCannibal/poc_bootable_recovery" remote="github" revision="cm-12.1"/>
 </manifest>
