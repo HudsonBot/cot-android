@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gerrit" fetch="git://git.omapzoom.org/" />
+  <remove-project name="CyanogenMod/android_bootable/recovery" />
+  <project path="bootable/recovery" name="ProjectOpenCannibal/poc_bootable_recovery" remote="gerrit" revision="cm-12.1"/>
+</manifest>
