@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <remote  name="github"
+<manifest>
+  <remote  name="poc"
            fetch=".."
            review="review.projectopencannibal.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-<manifest>
   <remove-project name="CyanogenMod/android_bootable_recovery" />
-  <project path="bootable/recovery" name="ProjectOpenCannibal/poc_bootable_recovery" remote="github" revision="cm-12.1"/>
+  <project path="bootable/recovery" name="ProjectOpenCannibal/poc_bootable_recovery" remote="poc" revision="cm-12.1"/>
 </manifest>
